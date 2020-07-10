@@ -39,8 +39,12 @@ check that you are receiving data in the infrastructure section of your New Reli
 [reference](https://docs.newrelic.com/docs/browser/new-relic-browser/installation/install-new-relic-browser-agent)
 to deploy the Browser Agent via New Relic APM, choose "Enable via New Relic APM" (recommended option!)
 ![enable via APM](https://github.com/Maosso/nr/blob/master/select%20via%20APM.png)
-and then 
+and then select your app from the list:
+![select your app](https://github.com/Maosso/nr/blob/master/enable%20for%20your%20app.png)
+
+Go to the browser section of the New Relic UI to verify that you are getting your data in:
+![check that you are getting data](https://github.com/Maosso/nr/blob/master/view%20browser%20data.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjU3ODk5OTIsMTUzMTI0MDYyOSwxNj
-g3MjM5MDIwXX0=
+eyJoaXN0b3J5IjpbMjAyMzQ2ODI2MSwxNTMxMjQwNjI5LDE2OD
+cyMzkwMjBdfQ==
 -->
