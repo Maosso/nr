@@ -31,6 +31,8 @@ update apt cache and install the agent
 sudo apt-get update
 sudo apt-get install newrelic-infra -y
 ```
+
+check that you are receiving data in the infrastructure section 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzIzOTAyMF19
+eyJoaXN0b3J5IjpbLTE4MDgyMjE3NzQsMTY4NzIzOTAyMF19
 -->
