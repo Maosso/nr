@@ -32,7 +32,8 @@ sudo apt-get update
 sudo apt-get install newrelic-infra -y
 ```
 
-check that you are receiving data in the infrastructure section 
+check that you are receiving data in the infrastructure section of your New Relic UI:
+![enter image description here](https://github.com/Maosso/nr/blob/master/infra.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDgyMjE3NzQsMTY4NzIzOTAyMF19
+eyJoaXN0b3J5IjpbMTAwNjIxOTg4NCwxNjg3MjM5MDIwXX0=
 -->
