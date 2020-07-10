@@ -36,7 +36,9 @@ check that you are receiving data in the infrastructure section of your New Reli
 ![enter image description here](https://github.com/Maosso/nr/blob/master/infra.png)
 
 ## Configure Browser Agents
-
+[reference](https://docs.newrelic.com/docs/browser/new-relic-browser/installation/install-new-relic-browser-agent)
+to deploy the Brow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTI0MDYyOSwxNjg3MjM5MDIwXX0=
+eyJoaXN0b3J5IjpbLTIxMDE0NzU0MzAsMTUzMTI0MDYyOSwxNj
+g3MjM5MDIwXX0=
 -->
