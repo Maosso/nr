@@ -14,37 +14,36 @@
 ## Configure Infrastructure agents
 for reference, go to https://infrastructure.eu.newrelic.com/accounts/YOURACCOUNT/install
 
-create a configuration file
+1. create a configuration file
 ```
 echo "license_key: eu01xxab1d00046e2b7a7853fad39227f13cNRAL" | sudo tee -a /etc/newrelic-infra.yml`
 ```
-enable key
+2. enable key
 ```
 curl https://download.newrelic.com/infrastructure_agent/gpg/newrelic-infra.gpg | sudo apt-key add -
 ```
-create agent's apt repo
+3. create agent's apt repo
 ```
 printf "deb [arch=amd64] http://download.newrelic.com/infrastructure_agent/linux/apt bionic main" | sudo tee -a /etc/apt/sources.list.d/newrelic-infra.list
 ```
-update apt cache and install the agent
+4. update apt cache and install the agent
 ```
 sudo apt-get update
 sudo apt-get install newrelic-infra -y
 ```
 
-check that you are receiving data in the infrastructure section of your New Relic UI:
+5. check that you are receiving data in the infrastructure section of your New Relic UI:
 ![enter image description here](https://github.com/Maosso/nr/blob/master/infra.png)
 
 ## Configure Browser Agents
 [reference](https://docs.newrelic.com/docs/browser/new-relic-browser/installation/install-new-relic-browser-agent)
-to deploy the Browser Agent via New Relic APM, choose "Enable via New Relic APM" (recommended option!)
+1. choose "Enable via New Relic APM" (recommended option!)
 ![enable via APM](https://github.com/Maosso/nr/blob/master/select%20via%20APM.png)
-and then select your app from the list:
+2. then select your app from the list:
 ![select your app](https://github.com/Maosso/nr/blob/master/enable%20for%20your%20app.png)
-
-Go to the browser section of the New Relic UI to verify that you are getting your data in:
+3. to the browser section of the New Relic UI to verify that you are getting your data in:
 ![check that you are getting data](https://github.com/Maosso/nr/blob/master/view%20browser%20data.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMzQ2ODI2MSwxNTMxMjQwNjI5LDE2OD
+eyJoaXN0b3J5IjpbMTkyODUyNjE2NiwxNTMxMjQwNjI5LDE2OD
 cyMzkwMjBdfQ==
 -->
