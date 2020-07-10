@@ -11,7 +11,7 @@
 
 ![server response times](https://github.com/Maosso/nr/blob/master/transactions_host.png)
 
-## Deploy Infrastructure agents
+## Configure Infrastructure agents
 for reference, go to https://infrastructure.eu.newrelic.com/accounts/YOURACCOUNT/install
 
 create a configuration file
@@ -34,6 +34,9 @@ sudo apt-get install newrelic-infra -y
 
 check that you are receiving data in the infrastructure section of your New Relic UI:
 ![enter image description here](https://github.com/Maosso/nr/blob/master/infra.png)
+
+## Configure Browser Agents
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjIxOTg4NCwxNjg3MjM5MDIwXX0=
+eyJoaXN0b3J5IjpbMTUzMTI0MDYyOSwxNjg3MjM5MDIwXX0=
 -->
